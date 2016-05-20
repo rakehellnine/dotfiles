@@ -36,3 +36,8 @@ antigen theme ys
 
 # tell antigen we are done
 antigen apply
+
+# go-related
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/gowork
+export PATH=$PATH:$GOPATH/bin
